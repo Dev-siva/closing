@@ -1,0 +1,48 @@
+
+
+.QWE{
+	color:Blue;
+	font-family:arial;
+	font-size:24px;
+}
+
+.RTY{
+	color:gray;
+	font-family:Times New Roman;
+	font-size:36px;
+}
+
+.ABC{
+	color:green;
+	font-family:cursive;
+	font-size:12px;
+}
+
+
+
+div{
+	height:800px;
+	width:75%;
+	font-size:14px;
+	padding:10px 50px 10px 50px;
+	border:10px ridge Black;
+	color:blue;
+	margin:10px 50px 20px 50px;
+	/* background-repeat:no-repeat / repeat-x /repeat-y; this properties (no-repeat = it won't repeat the image more than once) (repeat-x = it will display only in horizontal) repeat-y
+	will display in the vertical */
+	/*background-position: center /center-top; this is for position */
+	background-attachment:fixed; /* This is for the fixing the image even we scroll dowm the page image will appear until div block scrolls up completely */
+	/*background:#DC16DE; */
+span{
+	color:Green;
+	text-decoration:underline;
+}
+
+ 
+/*body{
+	background-image:url(SK.JPG);
+	background-attachment:fixed;
+}  */ /* we have you declared the body tag background-image in the beigning of the css code then only back ground image appears overall web page */
+
+/* div and span(its a inline tag ) Here we can apply entire style for div tag. If we have declared in css h1{} then make sure don't use h1 tag in between the div tag because h1{} 
+changes will be implied on the div tag so */
